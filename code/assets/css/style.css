@@ -575,9 +575,9 @@ section {
 }
 
 .about .image {
-  background: url("../img/Fichier 1.png") center center no-repeat;
+  background: url("../img/profile-pic.png") center center no-repeat;
   background-size: cover;
-  min-height: 500px;
+  /* min-height: 500px; */
 }
 
 .about .skills-content {
@@ -1068,7 +1068,14 @@ section {
     transform: rotate(360deg);
   }
 }
-
+.a_tel
+{
+  color: black;
+}
+.a_tel:hover
+{
+  text-decoration: underline;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1133,7 +1140,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #1D7CBF;
+  background: #AACEE7;
   color: #fff;
   text-decoration: none;
 }
